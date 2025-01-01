@@ -159,10 +159,25 @@ a :hover {
   height: 480px;
 }
 
+.carousel-description {
+  color: white;
+}
+
+.carousel-inner {
+  display: inline;
+  text-align: center;
+}
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
+
+.carousel-inner-second img {
+  width: 100%;
+  height: 100%;
+}
+
 .sidebar {
   position: absolute;
   padding-top: 20px;
@@ -207,8 +222,9 @@ a :hover > .sidebar {
   background-repeat: no-repeat;
   position: relative;
   float: left;
-  width: 33%;
-  height: 12rem;
+  width: 30%;
+  height: 20rem;
+  margin: 0.85rem;
   background-size: cover;
 }
 

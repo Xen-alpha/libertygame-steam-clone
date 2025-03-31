@@ -13,6 +13,7 @@
 .logoBig {
   height: 44px;
   margin-right: 10px;
+  filter: invert() hue-rotate(-180deg);
 }
 .titleBig {
   color: white;

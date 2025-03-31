@@ -1,3 +1,8 @@
+@media(min-width: 768px) {
+  #topNav {
+      width: 45rem;
+  }
+}
 .darkNav {
   background-color: #171a21;
 }
@@ -6,8 +11,15 @@
   height: 36px;
 }
 .logoBig {
-  width: 176px;
   height: 44px;
+  margin-right: 10px;
+}
+.titleBig {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: large;
+  margin-right: 1rem;
 }
 
 a {
@@ -76,7 +88,7 @@ a :hover {
 .navbarCaption {
   position: relative;
   padding: 3px;
-  width: 60rem;
+  max-width: 60rem;
 }
 .navbarBg {
   margin-top: 30px;

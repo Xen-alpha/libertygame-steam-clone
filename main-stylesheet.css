@@ -235,8 +235,8 @@ a :hover > .sidebar {
   background-repeat: no-repeat;
   position: relative;
   float: left;
-  width: 24vw;
-  height: 18vh;
+  width: 18rem;
+  height: 11rem;
   margin: 0.85rem;
   background-size: cover;
 }
